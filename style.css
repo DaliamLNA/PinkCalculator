@@ -1,0 +1,54 @@
+body {  
+    background-color: rgb(243, 119, 240);
+    text-align: center;
+    align-items: center;
+    font-family: arial;
+}
+.container {    
+    background-color: rgb(249, 162, 229);
+    width: 400px;
+    margin: auto;
+    height: 300px;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+}
+.label  {   
+    float: left;
+    margin-left: 10px;
+    margin-top: 35px;
+    padding: 2px;
+    font-weight: bold;
+}
+#firstnumber{   
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 230px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+}
+#secondnumber{  
+    margin-top: 35px;
+    width: 230px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;
+}
+.cong {
+    margin-top: 25px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.cong:hover {   
+    background-color:  rgb(249, 162, 229);
+    color: white;
+}
+#Tong { 
+    font-size: 30px;
+}

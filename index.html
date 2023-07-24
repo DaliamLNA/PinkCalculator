@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Calculator for girls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><h1 id="h1">Pink Calculator</h1></div>
+    <div class="container">
+        <div>
+            <label class="label">First number</label>
+            <input type="number" placeholder="..." id="firstnumber">
+        </div>
+        <div>
+            <label class="label">Second number</label>
+            <input type="number" placeholder="..." id="secondnumber">
+        </div>
+        <div>
+            <button onclick="Sum()" class="cong">+</button>
+            <button onclick="Minus()" class="cong">-</button>
+            <button onclick="Multiple()" class="cong">x</button>
+            <button onclick="Divide()" class="cong">/</button>
+        </div>
+        <p><span id="Tong">...</span></p>
+    </div>
+</body>
+<script>
+    function Sum() {    
+        var first = parseInt(document.getElementById('firstnumber').value);
+        var second = parseInt(document.getElementById('secondnumber').value);
+        document.getElementById('Tong').innerHTML = first + second;
+    }
+    function Minus() {    
+        var first = parseInt(document.getElementById('firstnumber').value);
+        var second = parseInt(document.getElementById('secondnumber').value);
+        document.getElementById('Tong').innerHTML = first - second;
+    }
+    function Multiple() {    
+        var first = parseInt(document.getElementById('firstnumber').value);
+        var second = parseInt(document.getElementById('secondnumber').value);
+        document.getElementById('Tong').innerHTML = first * second;
+    }
+    function Divide() {    
+        var first = parseInt(document.getElementById('firstnumber').value);
+        var second = parseInt(document.getElementById('secondnumber').value);
+        document.getElementById('Tong').innerHTML = first / second;
+    }
+
+</script>
+</html>
